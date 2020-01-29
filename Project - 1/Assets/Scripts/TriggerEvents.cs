@@ -8,5 +8,4 @@ public class TriggerEvents : MonoBehaviour
     {
         triggerEnterEvent.Invoke();
     }
-    //add ontriggerstay and ontriggerexit event
 }
