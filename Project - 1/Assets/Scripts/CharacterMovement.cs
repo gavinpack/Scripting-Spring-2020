@@ -7,7 +7,7 @@ public class CharacterMovement : MonoBehaviour
     public float speed = 5f;
     public float gravity = -3f;
     public float jumpForce = 10f;
-    
+
     void Start()
     {
         

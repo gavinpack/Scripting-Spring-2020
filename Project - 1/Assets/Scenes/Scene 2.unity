@@ -251,7 +251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601161172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.71, y: 0.01003382, z: -12.61}
+  m_LocalPosition: {x: 4.71, y: -1.8, z: 32.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -269,8 +269,9 @@ GameObject:
   - component: {fileID: 608595761}
   - component: {fileID: 608595760}
   - component: {fileID: 608595759}
+  - component: {fileID: 608595763}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,6 +350,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &608595763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608595758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &712487112
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,8 +507,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 904478180}
   speed: 5
-  gravity: -3
-  jumpForce: 10
+  gravity: -5
+  jumpForce: 5
 --- !u!65 &904478182
 BoxCollider:
   m_ObjectHideFlags: 0
