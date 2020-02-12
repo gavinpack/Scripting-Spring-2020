@@ -4915,6 +4915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 409710948}
   - component: {fileID: 409710947}
+  - component: {fileID: 409710949}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -4974,6 +4975,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &409710949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409710946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4245db6d6fd87544b780d13d5bc3f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &741280965
 GameObject:
   m_ObjectHideFlags: 0
@@ -5076,6 +5089,7 @@ GameObject:
   - component: {fileID: 1261801956}
   - component: {fileID: 1261801955}
   - component: {fileID: 1261801954}
+  - component: {fileID: 1261801957}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5147,3 +5161,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261801957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261801953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de542d27439331449920bbf09673829d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

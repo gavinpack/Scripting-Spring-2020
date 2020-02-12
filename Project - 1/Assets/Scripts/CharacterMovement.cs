@@ -3,36 +3,36 @@
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
-    private CharacterController _controller;
-    private Vector3 _positionDirection;
+    private CharacterController controller;
+    private Vector3 positionDirection;
     public float speed = 5f;
     public float gravity = -3f;
     public float jumpForce = 10f;
-    private int _jumpCount = 0;
+    private int jumpCount = 0;
     public int jumpCountMax = 2;
 
     void Start()
     {
-        _controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
     
     void Update()
     {
-        if (_controller.isGrounded)
+        if (controller.isGrounded)
         {
-            _positionDirection.y = 0;
-            _jumpCount = 0;
+            positionDirection.y = 0;
+            jumpCount = 0;
         }
         
-        _positionDirection.x = Input.GetAxis("Horizontal")*speed;
+        positionDirection.x = Input.GetAxis("Horizontal")*speed;
         
-        if (Input.GetButtonDown("Jump") && _jumpCount < jumpCountMax)
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
-            _positionDirection.y = jumpForce;
-            _jumpCount++;
+            positionDirection.y = jumpForce;
+            jumpCount++;
         }
 
-        _positionDirection.y += gravity * Time.deltaTime;
-        _controller.Move(_positionDirection*Time.deltaTime);
+        positionDirection.y += gravity * Time.deltaTime;
+        controller.Move(positionDirection*Time.deltaTime);
     }
 }
