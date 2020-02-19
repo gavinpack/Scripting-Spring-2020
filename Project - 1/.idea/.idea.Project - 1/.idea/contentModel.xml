@@ -9,7 +9,10 @@
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
+          <e p="ImageBehavior.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="LightController.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
