@@ -5,13 +5,14 @@ using UnityEngine.UI;
 public class ImageBehavior : MonoBehaviour
 {
     private Image imageObj;
-    void Start()
+    public FloatData dataObj;
+    private void Start()
     {
         imageObj = GetComponent<Image>();
     }
     
     void Update()
     {
-        
+        imageObj.fillAmount = dataObj.value;
     }
 }
