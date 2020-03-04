@@ -12,6 +12,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Newer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -38,6 +41,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StringData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +113,7 @@
       <workItem from="1582132452000" duration="3142000" />
       <workItem from="1582564672853" duration="3238000" />
       <workItem from="1582737383811" duration="1184000" />
+      <workItem from="1583342636904" duration="2658000" />
     </task>
     <servers />
   </component>
@@ -134,6 +141,8 @@
   <component name="WindowStateProjectService">
     <state x="445" y="161" key="SettingsEditor" />
     <state x="445" y="161" key="SettingsEditor/1920.1080" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
