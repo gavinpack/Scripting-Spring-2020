@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0661f74a45bd6943b182d93e2a21f2b, type: 3}
+  m_Name: The Office
+  m_EditorClassIdentifier: 
+  stringList:
+  - Andy
+  - Angela
+  - Creed
+  - Darryl
+  - Dwight
+  - Jan
+  - Jum
+  - Kelly
+  - Kevin
+  - Marideth
+  - Mike
+  - Oscar
+  - Pam
+  - Phylis
+  - Ryan
+  - Stanley
+  singleString: l
