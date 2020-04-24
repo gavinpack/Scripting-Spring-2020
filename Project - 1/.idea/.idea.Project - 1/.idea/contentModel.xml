@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AiPatrol.cs" t="Include" />
+          <e p="Ammo.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="Collectable.cs" t="Include" />
@@ -15,9 +16,13 @@
           <e p="Coroutines.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="EnumsSwitches.cs" t="Include" />
+          <e p="Flip.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="HoldCoroutine.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
+          <e p="InstancingBehaviour.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="LightController.cs" t="Include" />
           <e p="ListsAndLoops.cs" t="Include" />
@@ -27,10 +32,13 @@
           <e p="NewClass.cs" t="Include" />
           <e p="Newer.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
+          <e p="Shooter.cs" t="Include" />
+          <e p="SimpleCoroutine.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TextBehaviour.cs" t="Include" />
+          <e p="TransformBehaviour.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />
