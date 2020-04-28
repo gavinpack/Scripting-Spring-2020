@@ -34,7 +34,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AiPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HoldCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,7 +68,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AiPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Flip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehaviour.cs" />
@@ -79,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleCoroutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HoldCoroutine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AiPatrol.cs" />
       </list>
     </option>
   </component>
@@ -154,6 +153,7 @@
       <workItem from="1586109488846" duration="1763000" />
       <workItem from="1586189916972" duration="363000" />
       <workItem from="1587692440803" duration="4927000" />
+      <workItem from="1588045509700" duration="445000" />
     </task>
     <servers />
   </component>
